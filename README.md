@@ -5,9 +5,9 @@ Creation of a blog to discover the Laravel framework.
 - Herd
 - PHP 8.3
 - Laravel 11.11
-- Composer
+- Composer 2.7
 - SQLite
-- Bootstrap
+- Bootstrap 5.3
 
 ### Required
 1. [Laravel Herd](https://herd.laravel.com/)
