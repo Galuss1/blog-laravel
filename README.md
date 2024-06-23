@@ -10,7 +10,7 @@ Creation of a blog to discover the Laravel framework.
 - Bootstrap
 
 ### Required
-1. [Laravel Herd](https://herd.laravel.com/windows)
+1. [Laravel Herd](https://herd.laravel.com/)
 
 ### Installation
 *SOON*
