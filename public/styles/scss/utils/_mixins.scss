@@ -1,0 +1,31 @@
+@use './variables' as *;
+
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn "Breakpoint `#{$breakpoint}` not recognized. The available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+}
+
+@mixin animation-pulse($scale: 1.05, $duration: 0.75s) {
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale($scale);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    animation: pulse $duration ease-out 1;
+}

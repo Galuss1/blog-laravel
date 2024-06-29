@@ -1,0 +1,6 @@
+// Utils
+@use './utils/variables' as *;
+@use './utils/mixins' as *;
+
+// Page
+@import './pages/home';

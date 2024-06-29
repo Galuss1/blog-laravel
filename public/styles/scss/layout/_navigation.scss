@@ -1,0 +1,27 @@
+nav {
+    min-height: 75px;
+    background-color: var(--color-text);
+
+    ul {
+        span,
+        a {
+            cursor: pointer;
+            color: var(--color-main) !important;
+        }
+
+        span {
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    svg {
+        height: 35px;
+        width: auto;
+
+        path {
+            fill: var(--color-main);
+        }
+    }
+}

@@ -1,0 +1,152 @@
+body {
+    font-family: $font-family-text;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: $font-size-text;
+    color: var(--color-text);
+}
+
+h1 {
+    font-family: $font-family-primary;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: $font-size-h1;
+    color: var(--color-tertiary);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-secondary;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: var(--color-tertiary);
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+}
+
+h4 {
+    font-size: $font-size-h4;
+}
+
+h5 {
+    font-size: $font-size-h5;
+}
+
+h6 {
+    font-size: $font-size-h6;
+}
+
+@include respond-to('breakpoint-576') {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    h6 {
+        font-size: 1.1rem;
+    }
+}
+
+@include respond-to('breakpoint-768') {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+}
+
+@include respond-to('breakpoint-992') {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2.25rem;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+
+    h6 {
+        font-size: 1.75rem;
+    }
+}
+
+@include respond-to('breakpoint-1200') {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3.25rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2.75rem;
+    }
+
+    h5 {
+        font-size: 2.5rem;
+    }
+
+    h6 {
+        font-size: 2.25rem;
+    }
+}
